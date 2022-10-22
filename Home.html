@@ -4,73 +4,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JK Coffee</title>
+    <link rel="stylesheet" href="CSS/Style.CSS">
 </head>
 
 <body>
-    
-    <header>    
-    <img src="Img/Logo proyecto png.PNG" alt="Logo JK Coffee">
+    <header class="header">
+        <div class="Logo-header">
+            <img src="Img/Logo proyecto png.PNG" alt="">
+        </div>
+        <nav class="nav-Menu">
+            <ul>
+             <li> <a href="http://127.0.0.1:5500/Home.html#"> Inicio</a>  </li>
+             <li> <a href="#"> Tienda en línea</a>  </li>
+             <li> <a href="#"> Vende tu marca</a>  </li>
+             <li> <a href="http://127.0.0.1:5500/Home%202.html"> Iniciar sesión</a> </li>    
+           </ul> 
+        </nav>
+        
+    </header>
+    <section>
+        <div class="contenido-proyecto">
+            <h1 class="Title"> JK Coffee</h1>
+            <img src="Img/Vaso de cafe.PNG" alt="Vaso">
+            <h4 class="Sub-Title">Quienes somos</h4>
+            <p class="P-1">
+            Es una iniciativa comercial, donde se consolidan todas nuestras marcas de café, que nos representa como colombianos, llevando a cada lugar del mundo lo mejor de nuestro sabor que nos hace auténticos.
+            </p>
+            <p class="P-2">
+            "Si eres empresario o independiente JK Coffee es la ventana indicada para que lleves tu sabor a cualquier rincón del mundo".
+            </p>
+    </section >
 
-<nav>
-    <span> <a href="#"> Inicio</a>  </span>
-<span> <a href="#"> Tienda en línea</a>  </span>
-<span> <a href="#"> Vende tu marca</a>  </span>
-<span> <a href="http://127.0.0.1:5500/Home%202.html"> Iniciar sesión</a> </span>
-</nav>
-
-</header>
-
-<section>
-    <article>
-<h1> JK Coffee</h1>
-<p> Es una iniciativa comercial, donde se consolidan todas nuestras marcas de café, que nos representa como colombianos, llevando a cada lugar del mundo lo mejor de nuestro sabor que nos hace auténticos.
-    ¡Si eres empresario o independiente JK Coffee es la ventana indicada para que lleves tu sabor a cualquier rincón del mundo!    </p>    
-    <h4> Yo orquesto mis mañanas al son del café </h4>
-    
-    </article>
-<aside>
-    <img src="Img/Vaso de cafe.PNG" alt="Vaso de Café">
-</aside>
-
-</section>
-<section>
-    <span> Visita nuestro punto de venta </span>
-    <hr>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69937756709!2d-75.65125261264112!3d6.244369472095194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1665376720918!5m2!1ses!2sco" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/df3JeXVWYWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <section class="container">
+        <br>
+        <h2 class="Title-Frase"> ¡Yo orquesto mis mañanas al son del cafe!</h2>
+        
+        <div class="contenedor-ma.vi">
+         <div class="Mapa-ubicacion">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126916.69937756709!2d-75.65125261264112!3d6.244369472095194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428dfb80fad05%3A0x42137cfcc7b53b56!2sMedell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1665376720918!5m2!1ses!2sco" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <h4 class="Title-Mapa"> Visita nuestro punto de venta </h4>
+       </div>
+       
+        <div class="Video-youtube">
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/df3JeXVWYWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
+        </div>
     </div>
+
+    <footer class=" Footer-proyecto">
+     <div class="Acerca-de">
+        <div>
+            <h6 class=" Title-Acerca"> Acerca de JK Coffee </h6>
+            <ul>
+                <li> <a href="#"> Quienes somos</a></li>
+                <li> <a href="#"> Trabaje con nosotros</a></li>
+            
+            </ul>
+        </div>
+     </div>
+     <div>  
+       <div>
+            <h6> Servicio al cliente </h6>
+            <ul>
+                <li> <a href="#"> Contacto </a></li>            
+            </ul>
+        </div>
+     </div> 
+        <div class="Datos-coffee">
+            <h2> JK Coffee</h2>
+            <address> 
+                <H5>Medellín - Colombia </H5>
+                <h6>2022</h6>
+            </address>
+        </Div>
+        
+        <Div class="redes-sociales">
+        <h5 class="Title-redes"> Siguenos en</h5>
+        <ul>
+            <li><a href="https://es-la.facebook.com/"><img   src="Img/Logo facebock.png" width="45" height="45" ></a></li>
+            <li><a href="https://www.instagram.com/"><img src="Img/logo instagram.png" width="45" height="45" ></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="Img/logo linkedin.png" width="45" height="45" ></a></li>
+        </ul>    
+        </div>
+        
+    </footer>
 </section>
 
-<footer>
-<div>
-    <h6> Acerca de JK Coffee </h6>
-    <ul>
-        <li> <a href="#"> Quienes somos</a></li>
-        <li> <a href="#"> Trabaje con nosotros</a></li>
-    
-    </ul>
-</div>
-
-<div>
-    <h6> Servicio al cliente </h6>
-    <ul>
-        <li> <a href="#"> Contacto </a></li>
-    
-    </ul>
-</div>
-
-<Div>
-<h5> Siguenos en</h5>
-<ul>
-    <li><a href="https://es-la.facebook.com/"><img   src="Img/Logo facebock.png" width="45" height="45" ></a></li>
-    <li><a href="https://www.instagram.com/"><img src="Img/logo instagram.png" width="45" height="45" ></a></li>
-    <li><a href="https://www.linkedin.com/"><img src="Img/logo linkedin.png" width="45" height="45" ></a></li>
-</ul>    
-</div>
-</footer>
 
 </body>
-
 </html>

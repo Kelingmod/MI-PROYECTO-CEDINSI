@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto+Condensed & display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(237, 237, 243);
+}
+a, li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(37, 33, 33);
+}
+.logo-header img{
+    width: 50px;
+}
+header{
+    background-color: rgb(248, 248, 252); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2re;
+    border-bottom: 2px solid black;
+}
+.nav-Menu ul{
+    display: flex;
+    align-items: center;
+}
+.nav-Menu li{
+    margin-right: 1.5rem;
+}
+.nav-Menu a:hover{
+    color: rgb(18, 46, 170);
+}
+
+.nav-Menu li:last-child{
+    background-color: rgb(231, 231, 241);
+    border: 2px solid rgb(231, 231, 241);
+    padding: .25rem .75rem;
+    border-radius: .2rem;
+}
+.nav-Menu li:last-child:hover{
+    background: transparent;
+    border: solid rgb(231, 231, 241);
+}
+.contenido-proyecto{
+    width: 100%;
+    max-width: 900px;
+    margin-left: 10px;
+    padding: 170px;
+    background: rgb(248, 248, 252);
+    margin-top: 10px;
+    
+
+}
+
+.Title{
+    font-size: 40px;
+    color: rgb(53, 35, 35);
+    margin-bottom: 60px;
+}
+
+.Sub-Title{
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.contenido-proyecto img{
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+.Title-Frase{
+    font-size: 15px;
+    font-weight: 20xp;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.contenido-proyecto p{
+    font-size: 18px;
+    font-weight: 300px;
+    margin: 20px;
+}
+
+.Mapa-ubicacion{
+    margin: 20px;
+    float: left;
+}
+.Mapa-ubicacion .Title.Mapa{
+    font-size: 20px;    
+}
+
+.Video-youtube{
+    width: 550px;
+    float: left;
+    margin: 700px;
+    margin-top: 20px;
+    position: absolute;
+}
+.container {
+    height: 200px;
+}
+
+
+
