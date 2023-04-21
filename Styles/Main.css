@@ -1,0 +1,213 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    width: 100%;
+    background-color: rgb(243, 242, 242);
+    font-family: calibri;
+}
+
+header{
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+
+}
+
+.menunav{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.botini{
+    font-size: 18px;
+    font-style: italic;color: rgb(16, 103, 32);
+}
+
+.log{
+    width: 120px;
+    height: 50px;
+    float: left;
+    padding: 8px;
+}   
+
+nav{
+    margin-top: 120px;
+    float: right;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin-left:60px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul li a::before{
+    display: block;
+    content: "";
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0; 
+    position: absolute;
+    transition: width 0.2;
+
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+
+
+}
+/* Introduccion*/
+
+.intSecc1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imgintro{
+    width: 350px;
+    margin-left: 80px;
+    padding: 20;
+}
+
+.Texintr{
+    margin-top: 60px;
+    font-family: cursive;
+}
+
+.quien{
+    width: 800px;   
+    justify-content: center;
+    padding: 20px;
+    margin-left: 25%;
+}
+
+
+
+.Titqui{
+    margin-left: 25%;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+.Titporta{    
+    margin-top: 50px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.imgporta{
+    margin-top: 30px;
+    background-color: rgb(229, 232, 232);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.Imag1{
+    
+    margin: 0 30px;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,2);
+    cursor: default;
+    transition: all 400ms ease;
+       
+}
+
+.Imag1:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,4);
+    transform: translate(-3);
+}
+/* mapa y vedeo*/
+
+
+
+.mapvid{   
+    display: flex;
+    padding: 40px;
+}
+.titubica{
+    display: flex;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.mps{
+    margin-top:100px;
+    float: left;
+
+}
+
+.vdo{
+    margin-top: 40px;
+    margin-left: 400px;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    background-color: #0c0b0b;
+}
+
+.piepgn{
+    display: flex;
+    justify-content: centerl;
+    padding:20px;
+}
+
+.titser{font-size: 25px;
+
+}
+
+.datospie1{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    float: left;
+    padding: 5px;
+}
+
+.datospie2{
+    margin-top: 50px;
+    margin-left: 400px;
+    float: left;
+}   
+
+.rds{
+    padding: 5px;
+}
+
+
+
+
+
+
