@@ -65,3 +65,32 @@ nav ul li a::before{
 nav ul li a:hover::before{
     width: 100%;
 } 
+
+caption{
+    font-size: 30px; color: black;
+}
+
+table{
+    border-collapse:collapse ;
+    margin-left: 50px;
+}
+
+th,td{
+    border-style: ridge;
+    padding: 15px;
+    
+}
+
+tr>th{
+    background-color: rgb(62, 61, 61);
+}
+
+th{
+    font-size: 15px;color: white;
+}
+
+tbody>tr:hover{
+    background-color: white;
+
+}
+
