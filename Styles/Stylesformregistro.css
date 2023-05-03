@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(243, 242, 242);
+}
+
+header{
+    width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+
+nav{
+    width: 2000px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-left:60px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul li a::before{
+    display: block;
+    content: "";
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0; 
+    position: absolute;
+    transition: width 0.2;
+
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+} 
+
+.forreg{
+    width: 400px;
+    background: rgb(200, 198, 198);
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: arial;
+    color: rgb(50, 50, 51);
+    box-shadow: 7px 13px 37px #000;
+}
+
+.forreg h4{
+    font-size: 22px;
+    margin-bottom: 20px;    
+}
+
+.contreg{
+    width: 100%;
+    background: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+    font-family: arial;
+    font-size: 15px;
+}
+
+.forreg p{
+    height: 40px;
+    text-align: center;
+    font-size: 15px;   
+    line-height: 40px; 
+}
+
+.forreg a {
+    color: rgb(0, 0, 0) ;
+    text-decoration: none;
+}
+
+.forreg a:hover {
+    color: rgb(0, 0, 0) ;
+    text-decoration: underline;
+}
+
+.forreg .botreg {
+    width: 50%;
+    margin-left: 85px;
+    padding: 5px;
+}

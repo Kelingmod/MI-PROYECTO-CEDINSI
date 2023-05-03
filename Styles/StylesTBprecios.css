@@ -94,3 +94,34 @@ tbody>tr:hover{
 
 }
 
+caption{
+    font-size: 30px; color: black;
+}
+
+table{
+    border-collapse:collapse ;
+    margin-left: 50px;
+}
+
+th,td{
+    border-style: ridge;
+    margin-left: 50px;
+    
+}
+
+td{
+    padding: 30px;
+}
+
+tr>th{
+    background-color: rgb(62, 61, 61);
+}
+
+th{
+    font-size: 15px;color: white;
+}
+
+tbody>tr:hover{
+    background-color: white;
+    overflow: hidden;
+}
