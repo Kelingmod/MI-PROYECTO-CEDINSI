@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bdcolor {
+    background-color: rgb(243, 242, 242);
+    }
+
+header{
+    width: 100%;
+    padding: 10px;
+    margin-right: 20px; 
+    margin-bottom: 40px;
+    
+}
+
+
+
+nav ul li {
+    list-style: none;
+    margin-left:20px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+
+nav ul li a::before{
+    display: block;
+    content: "";
+    width: 0%;
+    background: #444;
+    height: 5px;
+    top: 0; 
+    position: absolute;
+    transition: width 0.2;
+
+}
+
+nav ul li a:hover::before{
+    width: 100%;
+} 
+
+section{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+}
+
+.card {
+    float: left;
+    margin-right: 50px;
+}
+
+
+
+
+

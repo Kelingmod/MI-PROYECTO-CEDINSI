@@ -30,9 +30,10 @@ header{
 
 
 .botini{
-    font-style: italic;color: rgb(39, 14, 224);
+    font-style: italic;color: rgb(77, 77, 79);
     border-top: 100px;
 }
+
 
 .log{
     width: 120px;
@@ -209,12 +210,12 @@ footer{
 
 .datospie2{
     margin-top: 50px;
-    margin-left: 400px;
+    margin-left: 500px;
     float: left;
 }   
 
 .rds{
-    padding: 5px;
+    padding: 10px;
 }
 
 
